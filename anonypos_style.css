@@ -1,0 +1,46 @@
+body{
+    background-color: #2d323b;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "VT323";
+    color: #7320b3;
+}
+div{
+    background-color: #2d323b;
+    border-color: #7320b3;
+    border-style: solid;
+    border-width: 0.5px;
+    margin: 0;
+}
+#main-frame{
+    display: flex;
+    width: 94vw;
+    height: 94vh;
+    justify-content: center;
+    padding-right: 7px;
+
+
+}
+#credits{
+    position: absolute;
+    background-color: #2d323b;
+    top: -1.2vh;
+    font-size: 15.3px;
+}
+#support-frame{
+    width: 20vw;
+    height: 6vw;
+    margin-left: auto;
+    margin-top: 7px;
+}
+#support{
+    font-size: 15.3px;
+    position: absolute;
+    right: 18vw;
+    top: 0.3vh;
+    background-color: #2d323b;
+
+}
