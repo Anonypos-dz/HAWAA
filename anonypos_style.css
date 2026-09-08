@@ -83,3 +83,32 @@ div{
     height: 4vh;
     font-size: 14px;
 }
+#controls{
+    width: 25vw;
+    height: 67vh;
+    position: absolute;
+    right: 3.5vw;
+    top: 11vw;
+}
+#filter-controls{
+    position: absolute;
+    top: 9vw;
+    right: 20vw;
+    background-color: #2d323b;
+}
+#preview{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 49vw;
+    top: 9.5vw;
+    left: 13vw;
+}
+#upload{
+    font-size: 25px;
+}
+#cat{
+    width: 10vw;
+}
