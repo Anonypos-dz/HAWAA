@@ -8,6 +8,10 @@ body{
     font-family: "VT323";
     color: #7320b3;
 }
+::selection{
+    background-color: white;
+    color: black;
+}
 div{
     background-color: #2d323b;
     border-color: #7320b3;
@@ -35,6 +39,10 @@ div{
     height: 6vw;
     margin-left: auto;
     margin-top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
 }
 #support{
     font-size: 15.3px;
@@ -43,4 +51,26 @@ div{
     top: 0.3vh;
     background-color: #2d323b;
 
+}
+.anonypos-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.anonypos-btn:hover{
+    border-color: white;
+    color: white;
+}
+#ko-fi{
+    height: 4vh;
+    width: 10vw;
+    margin-right: -20vh;
+    margin-bottom: 2vw;
+}
+#coffee-cat{
+    width: 3vw;
+    position: absolute;
+    right: 14vw;
+    top: 5.5vh;
 }
