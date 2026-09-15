@@ -112,3 +112,13 @@ div{
 #cat{
     width: 10vw;
 }
+#upload{
+    display: none;
+}
+#render{
+    max-width: 49vw;
+    max-height: 70vh;
+}
+#final-img{
+    display: none;
+}

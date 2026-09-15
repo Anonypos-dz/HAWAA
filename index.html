@@ -22,8 +22,11 @@
         <p id="filter-controls">Filter Controls</p>
         <p id="support">Support me</p>
         <div id="preview">
-            <p id="upload">Upload your image here</p>
+            <input id="upload" type="file" onchange="handleImageUpload()" accept=".png, .jpg, .jpeg"/>
+            <p id="upload-label">Upload your image here</p>
             <img id="cat" src="src/img/cat.png">
+            <img id="render" src="" style="display: none;">
+            <canvas id="final-img"></canvas>
         </div>
     </div>
     <p id="credits">HAWAA - by Anonypos</p>
